@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Canon literario escolar — Libertad y resistencia</title>
+  <meta name="description" content="Canon literario escolar: la libertad y la resistencia en la literatura. Obras para bachillerato con justificación y referencias APA7." />
+  <style>
+    /* Reset minimal */
+    * {box-sizing: border-box; margin:0; padding:0}
+    html,body {height:100%;}
+    body{
+      font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      line-height:1.6;
+      color:#222;
+      background: linear-gradient(180deg,#fbfbfd 0%,#f4f6fb 100%);
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+    }
+
+    /* Layout */
+    header{
+      background: #460b0b;
+      color: #fff;
+      padding: 24px 20px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 6px rgba(11,39,70,0.15);
+    }
+    .wrap {max-width:1100px; margin:0 auto;}
+    header .brand {display:flex; align-items:center; gap:16px;}
+    header .brand h1 {font-size:20px; letter-spacing:0.4px;}
+    nav {margin-top:12px;}
+    nav a {
+      color: #cfe7ff; text-decoration:none; margin-right:12px; font-weight:600;
+      background: rgb(130, 35, 35); padding:8px 10px; border-radius:8px;
+    }
+    nav a:hover {background: rgba(255,255,255,0.06); color:#fff;}
+
+    main {max-width:1100px; margin:28px auto; padding:0 20px 80px;}
+    .hero {
+      display:grid; grid-template-columns: 1fr 360px; gap:28px; align-items:center;
+      margin-bottom:28px;
+    }
+    .card {
+      background:#fff; border-radius:12px; padding:22px; box-shadow: 0 8px 24px rgba(20,40,80,0.06);
+    }
+    .hero h2 {font-size:28px; color:#822323; margin-bottom:8px;}
+    .meta {color:#b4b4b4; margin-bottom:12px;}
+
+    /* Sections */
+    section {margin-bottom:18px;}
+    .section-title {display:flex; align-items:baseline; gap:12px; margin-bottom:12px;}
+    .section-title h3 {font-size:18px; color:#822323;}
+    .lead {color:#000000; margin-bottom:14px;}
+/* Obras list */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 16px;
+  align-items: start;
+}
+
+.work {
+  display: flex;
+  flex-wrap: wrap;        
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.work img {
+  width: 90px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+.detail {
+  flex: 1 1 auto;
+  min-width: 0;          
+}
+.work h4 {
+  margin-bottom: 6px;
+  font-size: 16px;
+}
+.badge {
+  display: inline-block;
+  background: #ffd6d6;
+  color: #822323;
+  padding: 4px 8px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+    /* Detail styling */
+    .detail {display:grid; gap:10px;}
+    .detail p {color:#000000;}
+    .detail .justify {background:#fbfdff; border-left:4px solid #e2eefc; padding:10px 12px; border-radius:6px;}
+    .cite {font-size:13px; color:#39526b;}
+
+    footer {
+      margin-top:32px; padding:24px 20px; text-align:center; color:#5b6b80; font-size:14px;
+    }
+
+    /* Small screens */
+    @media (max-width:880px){
+      .hero {grid-template-columns:1fr; }
+      nav {display:flex; gap:8px; flex-wrap:wrap;}
+    }
+
+    /* Smooth anchor scroll */
+    html {scroll-behavior:smooth;}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="brand">
+        <svg width="44" height="44" viewBox="0 0 24 24" fill="none" aria-hidden>
+          <rect x="0" y="0" width="24" height="24" rx="5" fill="#fff" opacity="0.06"></rect>
+          <path d="M4 6h16v12H4z" fill="#ffffff" opacity="0.08"></path>
+          <path d="M7 9h10v2H7zM7 13h10v2H7z" fill="#fff" opacity="0.14"></path>
+        </svg>
+        <div>
+          <h1>Canon literario escolar</h1>
+          <div class="meta">obras literarias que todo estudiante de bachillerato debe leer</div>
+        </div>
+      </div>
+
+      <nav aria-label="Menú principal" style="margin-top:12px;">
+        <a href="#portada">Portada</a>
+        <a href="#introduccion">Introducción</a>
+        <a href="#obras">Obras</a>
+        <a href="#bibliografia">Bibliografía</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap" role="main">
+    <!-- a. Portada -->
+    <section id="portada" class="card hero" aria-labelledby="portada-title">
+      <div>
+        <h2 id="portada-title">Portada</h2>
+        <p class="lead">El canon literario escolar: La libertad y la resistencia en la literatura</p>
+        <p class="lead">Integrantes: Roldan Gregorio Juan Delfino</p>
+        <p class="lead">Profesor: Armando Segura Morales </p>
+        <p class="lead">Grupo: 554 </p>
+        <p class="cite"></p>
+      </div>
+
+      <aside class="card" style="text-align:center;">
+        <!-- Imagen de portada: reemplaza ruta por tu imagen -->
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPMBGNWW_H2WMIsAZZG_wAXGmjxOzS6kvKAQ&s" alt="Portada del canon" style="width:100%; height:220px; object-fit:cover; border-radius:8px; margin-bottom:12px;">
+        <div style="font-size:13px; color:#000000;"></div>
+      </aside>
+    </section>
+
+    <!-- b. Introducción -->
+    <section id="introduccion" class="card" aria-labelledby="intro-title">
+      <div class="section-title"><h3 id="intro-title">Introducción</h3></div>
+      <p class="lead">Un <strong>canon literario escolar</strong> es una selección de obras consideradas esenciales para la formación cultural, ética y estética de estudiantes. Nuestro criterio temático —<em>libertad y resistencia</em>— busca reunir textos que promuevan el pensamiento crítico frente a la opresión, la defensa de la dignidad humana y el análisis del poder.</p>
+
+      <p>Filtros aplicados para seleccionar cada obra:</p>
+      <ul style="margin:8px 0 18px 20px; color:#000000;">
+        <li>Representa cultura o pensamiento relevante de su época.</li>
+        <li>Aporta valor estético (innovación formal, estilo relevante).</li>
+        <li>Genera reflexión ética y social para estudiantes de bachillerato.</li>
+      </ul>
+    </section>
+
+    <!-- c. Cuerpo del trabajo -->
+    <section id="obras" class="card" aria-labelledby="obras-title">
+      <div class="section-title"><h3 id="obras-title"> Cuerpo del trabajo — Obras seleccionadas</h3></div>
+      <p class="lead">A continuación se presentan las siete obras del canon. Haz clic en cada obra para saltar a su descripción completa dentro de esta página.</p>
+
+      <div style="margin:10px 0 18px;">
+        <!-- Índice rápido -->
+        <strong>Índice de obras:</strong>
+        <nav style="margin-top:8px;">
+          <a href="#1984" class="badge">1984 — Orwell</a>
+          <a href="#diario-ana" class="badge">El diario de Ana Frank</a>
+          <a href="#matar-ruisenor" class="badge">Matar a un ruiseñor</a>
+          <a href="#principito" class="badge">El principito</a>
+          <a href="#hungergames" class="badge">Los juegos del hambre</a>
+          <a href="#orgullo" class="badge">Orgullo y prejuicio</a>
+          <a href="#pijama" class="badge">El niño con el pijama de rayas</a>
+        </nav>
+      </div>
+
+      <!-- Grid resumen -->
+      <div class="grid">
+        <!-- 1984 -->
+        <article id="1984" class="card">
+          <div class="work">
+            <img src="https://www.akal.mx/media/akalmexico/images/cover-54697.jpg" alt="Portada 1984">
+            <div class="detail">
+              <h4>1984 — George Orwell</h4>
+              <p class="cite">Orwell, G. (1949). <em>1984</em>.</p>
+              <p><strong>Biografía:</strong> George Orwell (Eric Arthur Blair, 1903–1950). Escritor británico, crítico de totalitarismos. (Encyclopaedia Britannica).</p>
+              <div class="justify">
+                <p><strong>Reseña:</strong> Novela distópica que muestra un Estado totalitario que controla la verdad y el pensamiento; Winston Smith cuestiona esa realidad y se enfrenta a la vigilancia omnipresente.</p>
+                <p><strong>Justificación:</strong> Representa la libertad y la resistencia. Ayuda a analizar vigilancia, manipulación del lenguaje y pensamiento crítico en estudiantes de bachillerato.</p>
+              </div>
+              <p class="cite">Fuente APA7: Orwell, G. (1949). <em>1984</em>. Secker & Warburg. Encyclopaedia Britannica. https://www.britannica.com/biography/George-Orwell</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- Ana Frank -->
+        <article id="diario-ana" class="card">
+          <div class="work">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-XQEgMHxUExReaMGQia9g1rbUdrPN1d2GDw&s" alt="Portada Diario de Ana Frank">
+            <div class="detail">
+              <h4>El diario de Ana Frank — Ana Frank</h4>
+              <p class="cite">Frank, A. (1947). <em>El diario de Ana Frank</em>.</p>
+              <p><strong>Biografía (resumen):</strong> Annelies Marie Frank (1929–1945), niña judía que escribió un diario durante su escondite en Ámsterdam. (US Holocaust Memorial Museum).</p>
+              <div class="justify">
+                <p><strong>Reseña:</strong> Testimonio íntimo de una adolescente en el escondite: esperanzas, miedos y reflexiones frente a la persecución nazi.</p>
+                <p><strong>Justificación:</strong> Resistencia moral; recurso clave para enseñar empatía y memoria histórica.</p>
+              </div>
+              <p class="cite">Fuente APA7: Frank, A. (1947). <em>El diario de Ana Frank</em>. United States Holocaust Memorial Museum. https://encyclopedia.ushmm.org</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- Matar a un ruiseñor -->
+        <article id="matar-ruisenor" class="card">
+          <div class="work">
+            <img src="https://images.cdn2.buscalibre.com/fit-in/360x360/0f/25/0f25231fd7db1c56defb44d67d8cf4a7.jpg" alt="Portada Matar a un ruiseñor">
+            <div class="detail">
+              <h4>Matar a un ruiseñor — Harper Lee</h4>
+              <p class="cite">Lee, H. (1960). <em>Matar a un ruiseñor</em>.</p>
+              <p><strong>Biografía (resumen):</strong> Harper Lee (1926–2016), novelista estadounidense conocida por retratar el racismo y la injusticia en el sur de EE. UU.</p>
+              <div class="justify">
+                <p><strong>Reseña:</strong> Narrada por Scout Finch, la novela expone el racismo y la injusticia del sistema judicial sureño a través del caso legal defendido por Atticus Finch.</p>
+                <p><strong>Justificación:</strong> Importante para debatir prejuicio, justicia y valentía cívica; fomenta empatía y análisis social.</p>
+              </div>
+              <p class="cite">Fuente APA7: Lee, H. (1960). <em>Matar a un ruiseñor</em>. J. B. Lippincott & Co. La Vanguardia.</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- El principito -->
+        <article id="principito" class="card">
+          <div class="work">
+            <img src="https://gandhi.vtexassets.com/arquivos/ids/4368502/9786078678006.jpg?v=638448228656200000" alt="Portada El principito">
+            <div class="detail">
+              <h4>El principito — Antoine de Saint-Exupéry</h4>
+              <p class="cite">Saint-Exupéry, A. de. (1943). <em>El principito</em>.</p>
+              <p><strong>Biografía (resumen):</strong> Antoine de Saint-Exupéry (1900–1944), aviador y escritor francés; su experiencia influyó su obra.</p>
+              <div class="justify">
+                <p><strong>Reseña:</strong> Fábula poética sobre un príncipe que viaja por planetas y ofrece lecciones sobre amistad, amor y la visión adulta del mundo.</p>
+                <p><strong>Justificación:</strong> Aporta libertad interior y reflexión filosófica; excelente para discusión sobre valores y metáfora.</p>
+              </div>
+              <p class="cite">Fuente APA7: Saint-Exupéry, A. de. (1943). <em>El principito</em>. Britannica.</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- Los juegos del hambre -->
+        <article id="hungergames" class="card">
+          <div class="work">
+            <img src="https://m.media-amazon.com/images/I/71BUB4ubNEL._UF1000,1000_QL80_.jpg" alt="Portada Los juegos del hambre">
+            <div class="detail">
+              <h4>Los juegos del hambre — Suzanne Collins</h4>
+              <p class="cite">Collins, S. (2008). <em>Los juegos del hambre</em>.</p>
+              <p><strong>Biografía (resumen):</strong> Suzanne Collins (n. 1962), autora estadounidense, con experiencia en guion y narrativa juvenil.</p>
+              <div class="justify">
+                <p><strong>Reseña:</strong> Distopía juvenil: Katniss Everdeen participa en un juego mortal impuesto por un gobierno autoritario; la historia explora resistencia y sacrificio.</p>
+                <p><strong>Justificación:</strong> Conecta con estudiantes; propicia debate sobre manipulación mediática, poder y resistencia colectiva.</p>
+              </div>
+              <p class="cite">Fuente APA7: Collins, S. (2008). <em>Los juegos del hambre</em>. Scholastic Press. Sitio oficial: suzannecollinsbooks.com</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- Orgullo y prejuicio -->
+        <article id="orgullo" class="card">
+          <div class="work">
+            <img src="https://m.media-amazon.com/images/I/71wnBzT9WqL._AC_UF894,1000_QL80_.jpg" alt="Portada Orgullo y prejuicio">
+            <div class="detail">
+              <h4>Orgullo y prejuicio — Jane Austen</h4>
+              <p class="cite">Austen, J. (1813). <em>Orgullo y prejuicio</em>.</p>
+              <p><strong>Biografía (resumen):</strong> Jane Austen (1775–1817), novelista inglesa; destacada por su ironía y crítica social.</p>
+              <div class="justify">
+                <p><strong>Reseña:</strong> Romance social y análisis de clase: Elizabeth Bennet desafía los prejuicios y expectativas sociales del siglo XIX.</p>
+                <p><strong>Justificación:</strong> Útil para debatir roles de género, libertad social y desarrollo personal.</p>
+              </div>
+              <p class="cite">Fuente APA7: Austen, J. (1813). <em>Orgullo y prejuicio</em>. Chicago Public Library.</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- El niño con el pijama de rayas -->
+        <article id="pijama" class="card">
+          <div class="work">
+            <img src="https://m.media-amazon.com/images/I/91OyzQ4MrJL.jpg" alt="Portada El niño con el pijama de rayas">
+            <div class="detail">
+              <h4>El niño con el pijama de rayas — John Boyne</h4>
+              <p class="cite">Boyne, J. (2006). <em>El niño con el pijama de rayas</em>.</p>
+              <p><strong>Biografía (resumen):</strong> John Boyne (n. 1971), novelista irlandés, autor de obras para jóvenes y adultos.</p>
+              <div class="justify">
+                <p><strong>Reseña:</strong> Novela que narra la amistad entre un niño alemán y un niño prisionero en un campo; aborda la inocencia frente al horror del Holocausto.</p>
+                <p><strong>Justificación:</strong> Aporta reflexión histórica y ética; fomenta empatía y memoria histórica.</p>
+              </div>
+              <p class="cite">Fuente APA7: Boyne, J. (2006). <em>El niño con el pijama de rayas</em>. Penguin Random House.</p>
+            </div>
+          </div>
+        </article>
+
+      </div><!-- end grid -->
+    </section>
+
+    <!-- d. Bibliografía -->
+    <section id="bibliografia" class="card" aria-labelledby="bib-title">
+      <div class="section-title"><h3 id="bib-title"> Bibliografía (APA 7)</h3></div>
+
+      <ol style="margin-left:18px; color:#203446;">
+        <li>Austen, J. (1813). <em>Orgullo y prejuicio</em>. T. Egerton.</li>
+        <li>Boyne, J. (2006). <em>El niño con el pijama de rayas</em>. David Fickling Books. Penguin Random House. https://www.penguinrandomhouse.com/authors/70373/john-boyne/</li>
+        <li>Collins, S. (2008). <em>Los juegos del hambre</em>. Scholastic Press. https://www.suzannecollinsbooks.com/bio.htm</li>
+        <li>Frank, A. (1947). <em>El diario de Ana Frank</em>. Contact Publishing. United States Holocaust Memorial Museum. https://encyclopedia.ushmm.org/content/es/article/anne-frank-biography</li>
+        <li>Lee, H. (1960). <em>Matar a un ruiseñor</em>. J. B. Lippincott & Co. https://www.lavanguardia.com/libros/autores/harper-lee-11020</li>
+        <li>Orwell, G. (1949). <em>1984</em>. Secker & Warburg. Encyclopaedia Britannica. https://www.britannica.com/biography/George-Orwell</li>
+        <li>Saint-Exupéry, A. de. (1943). <em>El principito</em>. Reynal & Hitchcock. Encyclopaedia Britannica. https://www.britannica.com/biography/Antoine-de-Saint-Exupery</li>
+        <li>Fuentes generales sobre canon literario (sugeridas): Poetry Foundation; Study.com; EBSCO Research Starters.</li>
+      </ol>
+
+      <p style="margin-top:12px; color:#3b556f;">Tip: si tu profesor pide enlaces académicos (DOI, editoriales universitarias), puedes sustituir los enlaces generales por ediciones académicas o artículos críticos. Si quieres, te busco ediciones académicas y DOI para cada obra.</p>
+    </section>
+
+    <footer class="card">
+      <div>Plantilla generada para proyecto escolar. Reemplaza las rutas de imagen y completa los datos del equipo antes de subir.</div>
+      <div style="margin-top:8px; font-size:13px; color:#62778c;">¿Quieres que te genere los archivos listos (.html + carpeta /images) en un zip para descargar y subir directo a GitHub Pages? Dímelo y lo preparo.</div>
+    </footer>
+  </main>
+
+  <script>
+    // Mejora: agregar confirmación de imagen faltante (opcional)
+    document.addEventListener('DOMContentLoaded', function(){
+      // Si quieres, aquí podrías agregar interacción simple (ej. abrir modal con cita).
+    });
+  </script>
+</body>
+</html>
